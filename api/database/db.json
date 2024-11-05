@@ -1,0 +1,242 @@
+[
+  {
+      "name": "Baldur's Gate 3",
+      "developer": "Larian Studios",
+      "releaseYear": "2023",
+      "genre": "RPG",
+      "price": "R$ 249,00",
+      "rating": "96"
+  },
+  {
+      "name": "Metaphor: ReFantazio",
+      "developer": "ATLUS",
+      "releaseYear": "2024",
+      "genre": "JRPG",
+      "price": "R$ 249,00",
+      "rating": "91"
+  },
+  {
+      "name": "Persona 5",
+      "developer": "ATLUS",
+      "releaseYear": "2016",
+      "genre": "JRPG",
+      "price": "R$ 219,00",
+      "rating": "93"
+  },
+  {
+      "name": "Persona 4",
+      "developer": "ATLUS",
+      "releaseYear": "2008",
+      "genre": "JRPG",
+      "price": "R$ 99,00",
+      "rating": "89"
+  },
+  {
+      "name": "Persona 3",
+      "developer": "ATLUS",
+      "releaseYear": "2006",
+      "genre": "JRPG",
+      "price": "R$ 99,00",
+      "rating": "85"
+  },
+  {
+      "name": "Shin Megami Tensei III Nocturne",
+      "developer": "ATLUS",
+      "releaseYear": "2003",
+      "genre": "JRPG",
+      "price": "R$ 199,00",
+      "rating": "87"
+  },
+  {
+      "name": "Outlast",
+      "developer": "Red Barrels",
+      "releaseYear": "2013",
+      "genre": "Terror",
+      "price": "R$ 59,99",
+      "rating": "79"
+  },
+  {
+      "name": "Phasmophobia",
+      "developer": "Kinetic Games",
+      "releaseYear": "2020",
+      "genre": "Terror",
+      "price": "R$ 59,99",
+      "rating": "88"
+  },
+  {
+      "name": "Lethal Company",
+      "developer": "Lethal Company",
+      "releaseYear": "2022",
+      "genre": "Terror",
+      "price": "R$ 32,99",
+      "rating": "85"
+  },
+  {
+      "name": "Nier Replicant",
+      "developer": "Square Enix",
+      "releaseYear": "2021",
+      "genre": "RPG",
+      "price": "R$ 249,90",
+      "rating": "88"
+  },
+  {
+      "name": "Final Fantasy XIV",
+      "developer": "Square Enix",
+      "releaseYear": "2010",
+      "genre": "MMORPG",
+      "price": "R$ 50,00",
+      "rating": "92"
+  },
+  {
+      "name": "Final Fantasy VII",
+      "developer": "Square Enix",
+      "releaseYear": "1997",
+      "genre": "RPG",
+      "price": "R$ 19,99",
+      "rating": "92"
+  },
+  {
+      "name": "Final Fantasy VIII",
+      "developer": "Square Enix",
+      "releaseYear": "1999",
+      "genre": "RPG",
+      "price": "R$ 60,00",
+      "rating": "89"
+  },
+  {
+      "name": "Final Fantasy XVI",
+      "developer": "Square Enix",
+      "releaseYear": "2023",
+      "genre": "RPG",
+      "price": "R$ 299,90",
+      "rating": "87"
+  },
+  {
+      "name": "Yakuza Kiwami",
+      "developer": "Sega",
+      "releaseYear": "2016",
+      "genre": "Ação",
+      "price": "R$ 99,90",
+      "rating": "80"
+  },
+  {
+      "name": "Yakuza 0",
+      "developer": "Sega",
+      "releaseYear": "2015",
+      "genre": "Ação",
+      "price": "R$ 99,90",
+      "rating": "85"
+  },
+  {
+      "name": "Yakuza: Like a Dragon",
+      "developer": "Sega",
+      "releaseYear": "2020",
+      "genre": "JRPG",
+      "price": "R$ 139,99",
+      "rating": "84"
+  },
+  {
+      "name": "Super Mario Odyssey",
+      "developer": "Nintendo",
+      "releaseYear": "2007",
+      "genre": "Plataforma",
+      "price": "R$ 329,00",
+      "rating": "94"
+  },
+  {
+      "name": "Luigi's Mansion 3",
+      "developer": "Nintendo",
+      "releaseYear": "2001",
+      "genre": "Plataforma",
+      "price": "R$ 297,00",
+      "rating": "87"
+  },
+  {
+    "name": "It Takes Two",
+    "developer": "Hazelight Studios",
+    "releaseYear": "2021",
+    "genre": "Cooperativo",
+    "price": "R$ 199,99",
+    "rating": "98"
+},
+{
+    "name": "Overcooked! 2",
+    "developer": "Team17",
+    "releaseYear": "2018",
+    "genre": "Cooperativo",
+    "price": "R$ 59,00",
+    "rating": "96"
+},
+{
+    "name": "Factorio",
+    "developer": "Wube Software LTD",
+    "releaseYear": "2020",
+    "genre": "Automação",
+    "price": "R$ 101,99",
+    "rating": "92"
+},
+  {
+      "name": "Mario Kart 8 Deluxe",
+      "developer": "Nintendo",
+      "releaseYear": "2014",
+      "genre": "Corrida",
+      "price": "R$ 288,00",
+      "rating": "88"
+  },
+  {
+      "name": "Omori",
+      "developer": "Omocat",
+      "releaseYear": "2020",
+      "genre": "RPG",
+      "price": "R$ 47,90",
+      "rating": "85"
+  },
+  {
+      "name": "Undertale",
+      "developer": "Toby Fox",
+      "releaseYear": "2015",
+      "genre": "RPG",
+      "price": "R$ 39,90",
+      "rating": "92"
+  },
+  {
+      "name": "Celeste",
+      "developer": "Maddy Makes Games",
+      "releaseYear": "2018",
+      "genre": "Plataforma",
+      "price": "R$ 29,90",
+      "rating": "92"
+  },
+  {
+      "name": "Pokemon Scarlet/Violet",
+      "developer": "Game Freak",
+      "releaseYear": "2022",
+      "genre": "RPG",
+      "price": "R$ 350,00",
+      "rating": "83"
+  },
+  {
+      "name": "Pokemon Legends: Arceus",
+      "developer": "Game Freak",
+      "releaseYear": "2022",
+      "genre": "RPG",
+      "price": "R$ 299,00",
+      "rating": "85"
+  },
+  {
+      "name": "The Legend of Zelda: Breath of the Wild",
+      "developer": "Nintendo",
+      "releaseYear": "2017",
+      "genre": "Ação",
+      "price": "R$ 299,00",
+      "rating": "97"
+  },
+  {
+      "name": "Fire Emblem: Three Houses",
+      "developer": "Intelligent Systems",
+      "releaseYear": "2019",
+      "genre": "JRPG",
+      "price": "299,99",
+      "rating": "89"
+  }
+]
