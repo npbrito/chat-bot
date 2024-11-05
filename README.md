@@ -30,6 +30,3 @@ npm run dev
 
 ### Abrindo interface gráfica:
 Abra o arquivo index.html que está dentro da pasta app no seu navegador.
-
-## Informações importantes:
-- Estou considerando apenas um usuário por sessão. Então se houver mais de um usuário tentando se conectar com o socket provavelmente terá um comportamento inesperado 🤡.
