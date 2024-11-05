@@ -45,6 +45,7 @@ function handleMessageText(message) {
       case message.includes('listar anos'): return sendAllReleaseYear();
 
       case message.includes('informações do jogo'): return sendGameInfo(message);
+      case message.includes('preço do jogo'): return sendGamePrice(message);
       case message.includes('jogos do gênero'): return sendGameOfGenre(message);
       case message.includes('jogos do desenvolvedor'): return sendGamesOfDeveloper(message);
       case message.includes('jogos do ano'): return sendGamesOfYear(message);
@@ -78,6 +79,7 @@ function sendHelpMessage(){
     <li><b>listar desenvolvedores:</b> Lista todos os desenvolvedores cadastrados no meu banco de dados.</li>
     <li><b>listar anos:</b> Lista todos os anos de lançamento dos jogos cadastrados no meu banco de dados.</li>
     <li><b>informações do jogo [jogo]:</b> Busca a informação do jogo escolhido.</li>
+    <li><b>preço do jogo [jogo]:</b> Busca o preço do jogo escolhido.</li>
     <li><b>jogos do gênero [gênero]:</b> Lista todos os jogos pertencente ao gênero escolhido.</li>
     <li><b>jogos do desenvolvedor [desenvolvedor]:</b> Lista todos os anos do desenvolvedor escolhido.</li>
     <li><b>jogos do ano [ano]:</b> Lista todos os jogos que foram lançados no ano escolhido.</li>
@@ -124,7 +126,7 @@ function sendGameInfo(msg){
  const param = msg.split('informações do jogo ')[1].toLowerCase();
  const game = database.find(game => game.name.toLowerCase() === param);
  if(!game){
-  return session.send(`<p class="text-gray-700">Não encontrei o jogo ${param} ☹️.</p>`)
+  return session.send(`<p class="text-gray-700">Não encontrei o jogo <b>${param}</b> ☹️</p>`)
  }
  session.send(`
   <p class="text-gray-700">
@@ -143,7 +145,7 @@ function sendGameOfGenre(msg){
  const genre = database.filter(game => game.genre.toLowerCase() === param);
 
  if(!genre.length){
-  return session.send(`<p class="text-gray-700">Não encontrei o gênero ${param} ☹️.</p>`)
+  return session.send(`<p class="text-gray-700">Não encontrei o gênero <b>${param}</b> ☹️</p>`)
  }
 
  const games = genre.map(game => game.name).join("<br>");
@@ -157,7 +159,7 @@ function sendGamesOfDeveloper(msg){
  const developer = database.filter(game => game.developer.toLowerCase() === param);
 
  if(!developer.length){
-  return session.send(`<p class="text-gray-700">Não encontrei o desenvolvedor ${param} ☹️.</p>`)
+  return session.send(`<p class="text-gray-700">Não encontrei o desenvolvedor <b>${param}</b> ☹️</p>`)
  }
 
  const games = developer.map(game => game.name).join("<br>");
@@ -173,7 +175,7 @@ function sendGamesOfYear(msg){
  console.log(param)
  console.log(releaseYear)
  if(!releaseYear.length){
-  return session.send(`<p class="text-gray-700">Não encontrei o ano ${param} ☹️.</p>`)
+  return session.send(`<p class="text-gray-700">Não encontrei o ano <b>${param}</b> ☹️</p>`)
  }
 
  const games = releaseYear.map(game => game.name).join("<br>");
@@ -181,3 +183,12 @@ function sendGamesOfYear(msg){
   <p class="text-gray-700">Os jogos lançados em <b>${param}</b> são:<br>${games}</p>
   `)
 }
+
+function sendGamePrice(msg){
+  const param = msg.split('preço do jogo ')[1].toLowerCase();
+  const game = database.find(game => game.name.toLowerCase() === param);
+  if(!game){
+   return session.send(`<p class="text-gray-700">Não encontrei o jogo <b>${param}</b> ☹️</p>`)
+  }
+  session.send(`<p class="text-gray-700">O preço do jogo ${param} é: <b>${game.price}</b></p>`)
+ }
