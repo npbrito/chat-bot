@@ -18,9 +18,11 @@ A ideia é desenvolver um chatbot simples, que responde a perguntas do usuário.
 
 ## Setup e Inicialização
 ### Requisitos: 
+```sh
 node >= 20
 npm >= 9.5
 OS: Windows ou Distro Linux (Testado em wsl2 com Ubuntu 22-04)
+```
 
 ### Rodando a API:
 Abra o seu terminal na raiz do projeto e execute o seguinte comando:
